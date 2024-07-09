@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Indexation Automatisée</title>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+
+        <style>
+        body { font-family: Arial, sans-serif; }
+        #loader { display: none; }
+        #message { margin-top: 10px; }
+        #automationForm { display: none; }
+    </style>
+    
+
+
+</head>
+<body>
+    <div>
+        <form id="loginForm">
+            <h2>Connexion</h2>
+            <input type="text" id="username" name="username" placeholder="Nom d'utilisateur" required><br>
+            <input type="password" id="password" name="password" placeholder="Clé secrète" required><br>
+            <button type="submit">Se connecter</button>
+        </form>
+        <div id="loader">Connexion en cours...</div>
+    </div>
+    <div id="automationForm">
+        <h2>Programmer l'indexation</h2>
+        <form id="indexationForm">
+            <input type="datetime-local" id="dateHeure" name="date_heure" required><br>
+            <input type="url" id="url" name="url" placeholder="URL à indexer" required><br>
+            <button type="submit">Indexer</button>
+            <button type="button" id="logoutButton">Se déconnecter</button>
+            <div id="loader">Chargement...</div>
+            <div id="message"></div>
+        </form>
+    </div>
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

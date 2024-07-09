@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Indexation.io",
+    "description": "Connectez-vous à Indexation.io Premium et programmez l'indexation de votre page web en 1 clic",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Indexation Automatisée",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    }
+}

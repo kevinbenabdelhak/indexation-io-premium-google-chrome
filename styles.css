@@ -1,0 +1,119 @@
+/*
+
+Connexion
+
+*/
+
+
+#loginForm, #automationForm{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+}
+
+#username, #password{
+      border: 2px solid #2EC260;
+    height: 30px;
+    border-radius: 9px;
+    background: transparent;
+    color: white;
+}
+
+#username::placeholder, #password::placeholder{
+color: #ffffffbd;
+}
+
+
+html{
+	background:black;
+
+}
+
+h2{
+	 color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+button{
+    background-color: #2EC260;
+    border: none;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+
+#loader{
+	color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*
+
+Indexation
+
+*/
+
+
+.connected #login-form {
+  display: none;
+}
+
+.connected #scheduler {
+  display: block;
+}
+
+#scheduler {
+  display: none;
+}
+
+
+
+
+
+#url, #dateHeure{
+	width: 100%;
+    box-sizing: border-box;
+
+ border: 2px solid #2EC260;
+    height: 30px;
+    border-radius: 9px;
+    background: transparent;
+    color: white;
+    color-scheme: dark;
+}
+
+#indexationForm{
+	    display: flex;
+    flex-direction: column;
+}
+
+#logoutButton{
+    font-size: 15px;
+    color: #ffffffa8;
+    background: transparent;
+    font-weight: 500;
+}
+
+#automationForm span{
+      color: #ffffff91;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
