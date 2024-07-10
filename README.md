@@ -1,7 +1,7 @@
 # Indexation.io Premium : Extension Google Chrome
 
 ## Description
-L'extension **Indexation.io** permet de vous connecter à votre compte Indexation.io Premium et de programmer l'indexation de vos pages web en un seul clic. Ce projet est conçu pour faciliter la gestion et l'automatisation de l'indexation des pages web directement depuis votre navigateur.
+L'extension [**Indexation.io Premium**](https://indexation.io/premium/) pour Google Chrome permet de vous connecter à votre compte Indexation.io Premium et de programmer l'indexation de vos pages web en un seul clic. Ce projet est conçu pour faciliter la gestion et l'automatisation de l'indexation des pages web directement depuis votre navigateur.
 
 ## Installation depuis GitHub
 1. Clonez ce dépôt sur votre machine locale :
