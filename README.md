@@ -3,7 +3,7 @@
 ## Description
 L'extension **Indexation.io** permet de vous connecter à votre compte Indexation.io Premium et de programmer l'indexation de vos pages web en un seul clic. Ce projet est conçu pour faciliter la gestion et l'automatisation de l'indexation des pages web directement depuis votre navigateur.
 
-## Installation
+## Installation depuis GitHub
 1. Clonez ce dépôt sur votre machine locale :
     ```bash
     git clone https://github.com/kevinbenabdelhak/indexation-io-premium-google-chrome.git
@@ -13,15 +13,20 @@ L'extension **Indexation.io** permet de vous connecter à votre compte Indexatio
 4. Cliquez sur le bouton **Charger l'extension non empaquetée**.
 5. Sélectionnez le dossier où vous avez cloné ce dépôt.
 
+## Installation depuis Google Chrome
+1. Rendez-vous sur https://chromewebstore.google.com/detail/indexationio/hadolmcngcbcffopkfnlokpappphchem
+2. Cliquez sur "Installer l'extension"
+
 ## Fonctionnalités
 - **Connexion** : Utilisez vos identifiants Indexation.io pour vous connecter via l'extension.
 - **Programmation de l'indexation** : Planifiez l'indexation de vos URL à une date et une heure spécifiques.
-- **Sauvegarde des sessions** : Vos identifiants sont sauvegardés localement pour permettre une connexion rapide.
+- **Sauvegarde des sessions** : Vos identifiants sont sauvegardés localement pour permettre une connexion rapide. Votre compte de connexion est pour l'instant géré via localStorage.
+
 
 ## Permissions
 L'extension requiert les permissions suivantes :
-- **storage** : Pour sauvegarder les informations de session.
-- **tabs** et **activeTab** : Pour accéder à l'URL de l'onglet actif et permettre une indexation rapide.
+- **tabs** : Pour accéder à l'URL de l'onglet actif et permettre une indexation rapide.
+- **Historique de navigation** : En réalité, l'extension n'utilisera jamais votre historique personnel mais utilise seulement l'URL de l'onglet actif sur votre navigateur. 
 
 ## Utilisation
 1. **Connexion** :
@@ -45,4 +50,4 @@ Merci d'utiliser **Indexation.io Premium**!
 
 ---
 
-Pour toute question ou assistance, veuillez contacter notre support à support@indexation.io
+Pour toute question ou assistance, veuillez contacter notre support à support@indexation.io ou sur notre formulaire de contact sur indexation.io
